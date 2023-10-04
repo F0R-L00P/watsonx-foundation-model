@@ -144,7 +144,7 @@ for index, row in specified_train_samples.iterrows():
 full_instruction = general_instruction + " ".join(instructions)
 
 # Randomly (or all) sample documents from the test data to test the prompts
-random_test_samples = test_data#.sample(40)
+random_test_samples = test_data#.sample(40)r
 results = []
 
 # start time for timing the generation process
